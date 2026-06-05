@@ -1,0 +1,64 @@
+---
+title: "Projects"
+page-layout: full
+---
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(readr)
+library(htmltools)
+
+projects <- read_csv("data/projects.csv", show_col_types = FALSE)
+
+make_row <- function(row) {
+  tags$article(
+    class = "catalog-card",
+    tags$div(
+      class = "catalog-main",
+      tags$div(
+        tags$p(class = "project-id", row$project_id),
+        tags$h2(row$title),
+        tags$p(class = "catalog-desc", row$description)
+      ),
+      tags$span(class = paste("status-badge", tolower(gsub(" ", "-", row$status))), row$status)
+    ),
+    tags$div(
+      class = "detail-grid",
+      tags$div(class = "detail-box", tags$span("Peers"), tags$p(row$peers)),
+      tags$div(class = "detail-box", tags$span("Topics"), tags$p(row$topics)),
+      tags$div(class = "detail-box", tags$span("Papers"), tags$p(row$paper_titles)),
+      tags$div(class = "detail-box", tags$span("Code keywords"), tags$p(row$code_keywords))
+    ),
+    tags$div(
+      class = "resource-row",
+      tags$a(class = "resource-pill strong", href = row$project_page, "Open overview"),
+      tags$a(class = "resource-pill", href = row$peers_md, "Peers"),
+      tags$a(class = "resource-pill", href = row$papers_md, "Papers"),
+      tags$a(class = "resource-pill", href = row$code_md, "Code"),
+      tags$a(class = "resource-pill", href = row$videos_md, "Videos")
+    )
+  )
+}
+
+tagList(
+  tags$section(
+    class = "page-hero",
+    tags$div(
+      class = "hero-inner",
+      tags$p(class = "hero-kicker", "Project catalog"),
+      tags$h1("All projects"),
+      tags$p(class = "hero-subtitle", "A fuller project directory with quick links to collaborators, papers, code, and videos.")
+    )
+  ),
+  tags$main(
+    class = "site-main normal-top",
+    tags$section(
+      class = "catalog-list",
+      lapply(seq_len(nrow(projects)), function(i) make_row(projects[i, ]))
+    )
+  )
+)
+```

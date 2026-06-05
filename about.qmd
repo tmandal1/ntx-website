@@ -1,0 +1,47 @@
+---
+title: "About"
+page-layout: full
+---
+
+::: {.page-hero}
+::: {.hero-inner}
+<p class="hero-kicker">About this site</p>
+
+# Project Repository
+
+<p class="hero-subtitle">This website is generated with Quarto and hosted on GitHub Pages. Project metadata live in <code>data/projects.csv</code>, while detailed content lives in Markdown files.</p>
+:::
+:::
+
+::: {.site-main .normal-top}
+
+## How to update this site
+
+1. Edit `data/projects.csv` to update searchable metadata.
+2. Edit project Markdown files inside `projects/projectXX/`.
+3. Render the website:
+
+```bash
+quarto render
+```
+
+4. Commit and push:
+
+```bash
+git add .
+git commit -m "Update project website"
+git push
+```
+
+## Where content lives
+
+| Content | File location |
+|---|---|
+| Search metadata | `data/projects.csv` |
+| Project overview | `projects/projectXX/index.md` |
+| Peers | `projects/projectXX/peers.md` |
+| Papers | `projects/projectXX/papers.md` |
+| Code | `projects/projectXX/code.md` |
+| Videos | `projects/projectXX/videos.md` |
+
+:::

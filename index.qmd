@@ -1,0 +1,164 @@
+---
+title: "Project Repository"
+page-layout: full
+---
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(readr)
+library(htmltools)
+
+projects <- read_csv("data/projects.csv", show_col_types = FALSE)
+
+make_card <- function(row) {
+  searchable <- paste(
+    row$project_id, row$title, row$short_title, row$description, row$status,
+    row$peers, row$topics, row$paper_titles, row$code_keywords, row$video_titles,
+    row$search_keywords, row$papers_md, row$code_md, row$videos_md, row$peers_md,
+    row$project_page,
+    collapse = " "
+  )
+
+  topic_chips <- strsplit(row$topics, ";")[[1]]
+  topic_chips <- trimws(topic_chips)
+
+  tags$article(
+    class = "project-card",
+    `data-search` = tolower(searchable),
+    tags$div(
+      class = "card-topline",
+      tags$span(class = "project-id", row$project_id),
+      tags$span(class = paste("status-badge", tolower(gsub(" ", "-", row$status))), row$status)
+    ),
+    tags$h3(row$short_title),
+    tags$p(class = "card-title-full", row$title),
+    tags$p(class = "project-desc", row$description),
+    tags$div(
+      class = "chip-row",
+      lapply(topic_chips[seq_len(min(length(topic_chips), 4))], function(x) tags$span(class = "chip", x))
+    ),
+    tags$p(class = "project-meta", tags$strong("Peers: "), row$peers),
+    tags$details(
+      class = "search-details",
+      tags$summary("Searchable details"),
+      tags$p(tags$strong("Papers: "), row$paper_titles),
+      tags$p(tags$strong("Code: "), row$code_keywords),
+      tags$p(tags$strong("Videos: "), row$video_titles),
+      tags$p(tags$strong("Keywords: "), row$search_keywords)
+    ),
+    tags$div(
+      class = "project-links",
+      tags$a(href = row$project_page, "Overview"),
+      tags$a(href = row$peers_md, "Peers"),
+      tags$a(href = row$papers_md, "Papers"),
+      tags$a(href = row$code_md, "Code"),
+      tags$a(href = row$videos_md, "Videos")
+    )
+  )
+}
+
+n_projects <- nrow(projects)
+n_active <- sum(projects$status == "Active", na.rm = TRUE)
+n_topics <- length(unique(unlist(strsplit(paste(projects$topics, collapse = ";"), ";"))))
+
+tagList(
+  tags$section(
+    class = "hero",
+    tags$div(
+      class = "hero-bg-glow"
+    ),
+    tags$div(
+      class = "hero-inner",
+      tags$p(class = "hero-kicker", "GitHub Pages · Quarto · Searchable project catalog"),
+      tags$h1("A cleaner home for project resources"),
+      tags$p(
+        class = "hero-subtitle",
+        "Search across projects, peers, papers, code, videos, and keywords from a single GitHub-hosted site."
+      ),
+      tags$div(
+        class = "hero-actions",
+        tags$a(class = "hero-button primary", href = "#search", "Search projects"),
+        tags$a(class = "hero-button secondary", href = "projects.html", "Browse all projects")
+      ),
+      tags$div(
+        class = "stats-row",
+        tags$div(class = "stat-card", tags$span(n_projects), tags$p("Projects")),
+        tags$div(class = "stat-card", tags$span(n_active), tags$p("Active")),
+        tags$div(class = "stat-card", tags$span(n_topics), tags$p("Topic labels"))
+      )
+    )
+  ),
+
+  tags$main(
+    class = "site-main",
+    tags$section(
+      id = "search",
+      class = "search-panel",
+      tags$div(
+        class = "search-header",
+        tags$div(
+          tags$p(class = "section-kicker", "Search"),
+          tags$h2("Find the right project resource")
+        ),
+        tags$p(class = "search-note", "Search uses project metadata in data/projects.csv.")
+      ),
+      tags$input(
+        id = "projectSearch",
+        class = "search-input",
+        type = "text",
+        placeholder = "Try: PLINK, Olink, heritability, MRI, peer name, paper title, video title..."
+      ),
+      tags$div(
+        class = "quick-filter-row",
+        tags$button(class = "quick-filter", `data-term` = "", "All"),
+        tags$button(class = "quick-filter", `data-term` = "active", "Active"),
+        tags$button(class = "quick-filter", `data-term` = "genetics", "Genetics"),
+        tags$button(class = "quick-filter", `data-term` = "proteomics", "Proteomics"),
+        tags$button(class = "quick-filter", `data-term` = "heritability", "Heritability"),
+        tags$button(class = "quick-filter", `data-term` = "MRI", "MRI")
+      ),
+      tags$p(id = "resultCount", class = "result-count")
+    ),
+
+    tags$section(
+      class = "project-grid",
+      lapply(seq_len(nrow(projects)), function(i) make_card(projects[i, ]))
+    )
+  ),
+
+  tags$script(HTML("
+    const input = document.getElementById('projectSearch');
+    const cards = Array.from(document.querySelectorAll('.project-card'));
+    const resultCount = document.getElementById('resultCount');
+    const buttons = Array.from(document.querySelectorAll('.quick-filter'));
+
+    function updateCards() {
+      const q = input.value.toLowerCase().trim();
+      let visible = 0;
+
+      cards.forEach(card => {
+        const text = card.dataset.search;
+        const show = text.includes(q);
+        card.style.display = show ? '' : 'none';
+        if (show) visible += 1;
+      });
+
+      resultCount.textContent = `${visible} project(s) shown`;
+    }
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        input.value = btn.dataset.term;
+        updateCards();
+        input.focus();
+      });
+    });
+
+    input.addEventListener('input', updateCards);
+    updateCards();
+  "))
+)
+```
