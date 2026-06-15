@@ -1,0 +1,1584 @@
+[
+  {
+    "objectID": "project_page_templates/papers.html",
+    "href": "project_page_templates/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "project_page_templates/papers.html#project-papers-and-references",
+    "href": "project_page_templates/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "project_page_templates/code.html",
+    "href": "project_page_templates/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "project_page_templates/code.html#project-code-and-workflows",
+    "href": "project_page_templates/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "project_page_templates/code.html#reproducibility-notes",
+    "href": "project_page_templates/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "project_page_templates/videos.html",
+    "href": "project_page_templates/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "project_page_templates/videos.html#project-videos",
+    "href": "project_page_templates/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Project Repository",
+    "section": "",
+    "text": "GitHub Pages · Quarto · Searchable project catalog\nA cleaner home for project resources\nSearch across projects, peers, papers, code, videos, and keywords from a single GitHub-hosted site.\n\nSearch projects\nBrowse all projects\n\n\n\n16\nProjects\n\n\n2\nActive\n\n\n19\nTopic labels\n\n\n\n\n\n\n\n\nSearch\nFind the right project resource\n\nSearch uses project metadata in data/projects.csv.\n\n\n\nAll\nActive\nGenetics\nProteomics\nHeritability\nMRI\n\n\n\n\n\n\nproject01\nActive\n\nGenetic QC\nProject 1: Genetic QC Pipeline\nA reproducible quality-control workflow for genotype data, including missingness, HWE, MAF, sex checks, ancestry checks, and relatedness.\n\nGenetics\nQC\nPLINK\nRelatedness\n\n\nPeers: \nAlice Smith; John Doe; Maria Chen\n\n\nSearchable details\n\nPapers: \nGenotype quality control best practices; PC-AiR ancestry inference; PC-Relate relatedness estimation\n\n\nCode: \nPLINK; KING; PC-AiR; PC-Relate; HWE; MAF; missingness; sex check\n\n\nVideos: \nGenetic QC overview; Running PLINK QC; Relationship checking tutorial\n\n\nKeywords: \ngenotyping quality control ancestry relatedness missingness HWE MAF\n\n\n\nOverview\nPeers\nPapers\nCode\nVideos\n\n\n\n\nproject02\nPlanning\n\nImaging Genetics\nProject 2: Imaging Genetics\nA workflow connecting brain imaging phenotypes with genomic variation, including site adjustment and reproducible GWAS workflows.\n\nMRI\nGWAS\nBrain phenotypes\nImaging genetics\n\n\nPeers: \nDavid Lee; Priya Shah; Emily Wilson\n\n\nSearchable details\n\nPapers: \nImaging genetics methods; Brain phenotype GWAS; Multi-site neuroimaging harmonization\n\n\nCode: \nMRI phenotypes; GWAS; covariate adjustment; site effects; batch correction\n\n\nVideos: \nImaging genetics introduction; MRI phenotype processing; GWAS walkthrough\n\n\nKeywords: \nbrain MRI imaging genetics GWAS phenotype harmonization neuroimaging\n\n\n\nOverview\nPeers\nPapers\nCode\nVideos\n\n\n\n\nproject03\nActive\n\nOlink Proteomics\nProject 3: Olink Proteomics\nProteomics data processing and QC for Olink NPX measurements, with attention to plate effects, normalization, and reproducibility.\n\nOlink\nProteomics\nNPX\nBatch effects\n\n\nPeers: \nNora Ahmed; Ryan Brown; Harshitha Rao\n\n\nSearchable details\n\nPapers: \nOlink NPX normalization; Proteomics batch correction; Protein QC methods\n\n\nCode: \nOlinkAnalyze; NPX; ComBat; limma; plate effect; LOD; protein QC\n\n\nVideos: \nOlink data overview; NPX QC tutorial; Proteomics batch correction\n\n\nKeywords: \nOlink proteomics NPX plate batch intensity normalization ComBat limma LOD\n\n\n\nOverview\nPeers\nPapers\nCode\nVideos\n\n\n\n\nproject04\nDrafting\n\nHeritability\nProject 4: Heritability Estimation\nMethods for SNP heritability estimation using HE regression, REML, LDSC, and adjusted HE approaches.\n\nHeritability\nHE regression\nLDSC\nREML\n\n\nPeers: \nWei Zhang; Lin Chen; Sandra Safo\n\n\nSearchable details\n\nPapers: \nHaseman-Elston regression; LDSC heritability; Adjusted HE regression; Variance component models\n\n\nCode: \nHE regression; REML; GCTA; LDSC; AdjHE; PC adjustment; random effects\n\n\nVideos: \nHeritability overview; HE regression derivation; LDSC tutorial\n\n\nKeywords: \nSNP heritability variance components HE LDSC REML GCTA AdjHE\n\n\n\nOverview\nPeers\nPapers\nCode\nVideos\n\n\n\n\nproject05\nNot started\n\nProject 5\nProject 5: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nTopic 1\nTopic 2\nTopic 3\n\n\nPeers: \nPeer 1; Peer 2; Peer 3\n\n\nSearchable details\n\nPapers: \nMain paper title; Background paper title; Methods paper title\n\n\nCode: \nR; Quarto; workflow; analysis script; reproducibility\n\n\nVideos: \nProject overview video; Code walkthrough video; Tutorial video\n\n\nKeywords: \nadd custom keywords here for search\n\n\n\nOverview\nPeers\nPapers\nCode\nVideos\n\n\n\n\nproject06\nNot started\n\nProject 6\nProject 6: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nTopic 1\nTopic 2\nTopic 3\n\n\nPeers: \nPeer 1; Peer 2; Peer 3\n\n\nSearchable details\n\nPapers: \nMain paper title; Background paper title; Methods paper title\n\n\nCode: \nR; Quarto; workflow; analysis script; reproducibility\n\n\nVideos: \nProject overview video; Code walkthrough video; Tutorial video\n\n\nKeywords: \nadd custom keywords here for search\n\n\n\nOverview\nPeers\nPapers\nCode\nVideos\n\n\n\n\nproject07\nNot started\n\nProject 7\nProject 7: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nTopic 1\nTopic 2\nTopic 3\n\n\nPeers: \nPeer 1; Peer 2; Peer 3\n\n\nSearchable details\n\nPapers: \nMain paper title; Background paper title; Methods paper title\n\n\nCode: \nR; Quarto; workflow; analysis script; reproducibility\n\n\nVideos: \nProject overview video; Code walkthrough video; Tutorial video\n\n\nKeywords: \nadd custom keywords here for search\n\n\n\nOverview\nPeers\nPapers\nCode\nVideos\n\n\n\n\nproject08\nNot started\n\nProject 8\nProject 8: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nTopic 1\nTopic 2\nTopic 3\n\n\nPeers: \nPeer 1; Peer 2; Peer 3\n\n\nSearchable details\n\nPapers: \nMain paper title; Background paper title; Methods paper title\n\n\nCode: \nR; Quarto; workflow; analysis script; reproducibility\n\n\nVideos: \nProject overview video; Code walkthrough video; Tutorial video\n\n\nKeywords: \nadd custom keywords here for search\n\n\n\nOverview\nPeers\nPapers\nCode\nVideos\n\n\n\n\nproject09\nNot started\n\nProject 9\nProject 9: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nTopic 1\nTopic 2\nTopic 3\n\n\nPeers: \nPeer 1; Peer 2; Peer 3\n\n\nSearchable details\n\nPapers: \nMain paper title; Background paper title; Methods paper title\n\n\nCode: \nR; Quarto; workflow; analysis script; reproducibility\n\n\nVideos: \nProject overview video; Code walkthrough video; Tutorial video\n\n\nKeywords: \nadd custom keywords here for search\n\n\n\nOverview\nPeers\nPapers\nCode\nVideos\n\n\n\n\nproject10\nNot started\n\nProject 10\nProject 10: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nTopic 1\nTopic 2\nTopic 3\n\n\nPeers: \nPeer 1; Peer 2; Peer 3\n\n\nSearchable details\n\nPapers: \nMain paper title; Background paper title; Methods paper title\n\n\nCode: \nR; Quarto; workflow; analysis script; reproducibility\n\n\nVideos: \nProject overview video; Code walkthrough video; Tutorial video\n\n\nKeywords: \nadd custom keywords here for search\n\n\n\nOverview\nPeers\nPapers\nCode\nVideos\n\n\n\n\nproject11\nNot started\n\nProject 11\nProject 11: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nTopic 1\nTopic 2\nTopic 3\n\n\nPeers: \nPeer 1; Peer 2; Peer 3\n\n\nSearchable details\n\nPapers: \nMain paper title; Background paper title; Methods paper title\n\n\nCode: \nR; Quarto; workflow; analysis script; reproducibility\n\n\nVideos: \nProject overview video; Code walkthrough video; Tutorial video\n\n\nKeywords: \nadd custom keywords here for search\n\n\n\nOverview\nPeers\nPapers\nCode\nVideos\n\n\n\n\nproject12\nNot started\n\nProject 12\nProject 12: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nTopic 1\nTopic 2\nTopic 3\n\n\nPeers: \nPeer 1; Peer 2; Peer 3\n\n\nSearchable details\n\nPapers: \nMain paper title; Background paper title; Methods paper title\n\n\nCode: \nR; Quarto; workflow; analysis script; reproducibility\n\n\nVideos: \nProject overview video; Code walkthrough video; Tutorial video\n\n\nKeywords: \nadd custom keywords here for search\n\n\n\nOverview\nPeers\nPapers\nCode\nVideos\n\n\n\n\nproject13\nNot started\n\nProject 13\nProject 13: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nTopic 1\nTopic 2\nTopic 3\n\n\nPeers: \nPeer 1; Peer 2; Peer 3\n\n\nSearchable details\n\nPapers: \nMain paper title; Background paper title; Methods paper title\n\n\nCode: \nR; Quarto; workflow; analysis script; reproducibility\n\n\nVideos: \nProject overview video; Code walkthrough video; Tutorial video\n\n\nKeywords: \nadd custom keywords here for search\n\n\n\nOverview\nPeers\nPapers\nCode\nVideos\n\n\n\n\nproject14\nNot started\n\nProject 14\nProject 14: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nTopic 1\nTopic 2\nTopic 3\n\n\nPeers: \nPeer 1; Peer 2; Peer 3\n\n\nSearchable details\n\nPapers: \nMain paper title; Background paper title; Methods paper title\n\n\nCode: \nR; Quarto; workflow; analysis script; reproducibility\n\n\nVideos: \nProject overview video; Code walkthrough video; Tutorial video\n\n\nKeywords: \nadd custom keywords here for search\n\n\n\nOverview\nPeers\nPapers\nCode\nVideos\n\n\n\n\nproject15\nNot started\n\nProject 15\nProject 15: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nTopic 1\nTopic 2\nTopic 3\n\n\nPeers: \nPeer 1; Peer 2; Peer 3\n\n\nSearchable details\n\nPapers: \nMain paper title; Background paper title; Methods paper title\n\n\nCode: \nR; Quarto; workflow; analysis script; reproducibility\n\n\nVideos: \nProject overview video; Code walkthrough video; Tutorial video\n\n\nKeywords: \nadd custom keywords here for search\n\n\n\nOverview\nPeers\nPapers\nCode\nVideos\n\n\n\n\nproject16\nNot started\n\nProject 16\nProject 16: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nTopic 1\nTopic 2\nTopic 3\n\n\nPeers: \nPeer 1; Peer 2; Peer 3\n\n\nSearchable details\n\nPapers: \nMain paper title; Background paper title; Methods paper title\n\n\nCode: \nR; Quarto; workflow; analysis script; reproducibility\n\n\nVideos: \nProject overview video; Code walkthrough video; Tutorial video\n\n\nKeywords: \nadd custom keywords here for search\n\n\n\nOverview\nPeers\nPapers\nCode\nVideos"
+  },
+  {
+    "objectID": "projects/project04/papers.html",
+    "href": "projects/project04/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "projects/project04/papers.html#project-papers-and-references",
+    "href": "projects/project04/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "projects/project04/code.html",
+    "href": "projects/project04/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project04/code.html#project-code-and-workflows",
+    "href": "projects/project04/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "projects/project04/code.html#reproducibility-notes",
+    "href": "projects/project04/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project04/videos.html",
+    "href": "projects/project04/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "projects/project04/videos.html#project-videos",
+    "href": "projects/project04/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "projects/project03/peers.html",
+    "href": "projects/project03/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "projects/project03/peers.html#project-peers-and-collaborators",
+    "href": "projects/project03/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  },
+  {
+    "objectID": "projects/project03/index.html",
+    "href": "projects/project03/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "projects/project03/index.html#overview",
+    "href": "projects/project03/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "projects/project03/index.html#project-status",
+    "href": "projects/project03/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "projects/project03/index.html#notes",
+    "href": "projects/project03/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "projects/project02/papers.html",
+    "href": "projects/project02/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "projects/project02/papers.html#project-papers-and-references",
+    "href": "projects/project02/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "projects/project02/code.html",
+    "href": "projects/project02/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project02/code.html#project-code-and-workflows",
+    "href": "projects/project02/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "projects/project02/code.html#reproducibility-notes",
+    "href": "projects/project02/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project02/videos.html",
+    "href": "projects/project02/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "projects/project02/videos.html#project-videos",
+    "href": "projects/project02/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "projects/project05/peers.html",
+    "href": "projects/project05/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "projects/project05/peers.html#project-peers-and-collaborators",
+    "href": "projects/project05/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  },
+  {
+    "objectID": "projects/project05/index.html",
+    "href": "projects/project05/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "projects/project05/index.html#overview",
+    "href": "projects/project05/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "projects/project05/index.html#project-status",
+    "href": "projects/project05/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "projects/project05/index.html#notes",
+    "href": "projects/project05/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "projects/project16/papers.html",
+    "href": "projects/project16/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "projects/project16/papers.html#project-papers-and-references",
+    "href": "projects/project16/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "projects/project16/code.html",
+    "href": "projects/project16/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project16/code.html#project-code-and-workflows",
+    "href": "projects/project16/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "projects/project16/code.html#reproducibility-notes",
+    "href": "projects/project16/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project16/videos.html",
+    "href": "projects/project16/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "projects/project16/videos.html#project-videos",
+    "href": "projects/project16/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "projects/project11/peers.html",
+    "href": "projects/project11/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "projects/project11/peers.html#project-peers-and-collaborators",
+    "href": "projects/project11/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  },
+  {
+    "objectID": "projects/project11/index.html",
+    "href": "projects/project11/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "projects/project11/index.html#overview",
+    "href": "projects/project11/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "projects/project11/index.html#project-status",
+    "href": "projects/project11/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "projects/project11/index.html#notes",
+    "href": "projects/project11/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "projects/project10/papers.html",
+    "href": "projects/project10/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "projects/project10/papers.html#project-papers-and-references",
+    "href": "projects/project10/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "projects/project10/code.html",
+    "href": "projects/project10/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project10/code.html#project-code-and-workflows",
+    "href": "projects/project10/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "projects/project10/code.html#reproducibility-notes",
+    "href": "projects/project10/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project10/videos.html",
+    "href": "projects/project10/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "projects/project10/videos.html#project-videos",
+    "href": "projects/project10/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "projects/project07/peers.html",
+    "href": "projects/project07/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "projects/project07/peers.html#project-peers-and-collaborators",
+    "href": "projects/project07/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  },
+  {
+    "objectID": "projects/project07/index.html",
+    "href": "projects/project07/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "projects/project07/index.html#overview",
+    "href": "projects/project07/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "projects/project07/index.html#project-status",
+    "href": "projects/project07/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "projects/project07/index.html#notes",
+    "href": "projects/project07/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "projects/project09/papers.html",
+    "href": "projects/project09/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "projects/project09/papers.html#project-papers-and-references",
+    "href": "projects/project09/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "projects/project09/code.html",
+    "href": "projects/project09/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project09/code.html#project-code-and-workflows",
+    "href": "projects/project09/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "projects/project09/code.html#reproducibility-notes",
+    "href": "projects/project09/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project09/videos.html",
+    "href": "projects/project09/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "projects/project09/videos.html#project-videos",
+    "href": "projects/project09/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "projects/project08/peers.html",
+    "href": "projects/project08/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "projects/project08/peers.html#project-peers-and-collaborators",
+    "href": "projects/project08/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  },
+  {
+    "objectID": "projects/project08/index.html",
+    "href": "projects/project08/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "projects/project08/index.html#overview",
+    "href": "projects/project08/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "projects/project08/index.html#project-status",
+    "href": "projects/project08/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "projects/project08/index.html#notes",
+    "href": "projects/project08/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "projects/project06/papers.html",
+    "href": "projects/project06/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "projects/project06/papers.html#project-papers-and-references",
+    "href": "projects/project06/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "projects/project06/code.html",
+    "href": "projects/project06/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project06/code.html#project-code-and-workflows",
+    "href": "projects/project06/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "projects/project06/code.html#reproducibility-notes",
+    "href": "projects/project06/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project06/videos.html",
+    "href": "projects/project06/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "projects/project06/videos.html#project-videos",
+    "href": "projects/project06/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "projects/project01/peers.html",
+    "href": "projects/project01/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "projects/project01/peers.html#project-peers-and-collaborators",
+    "href": "projects/project01/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  },
+  {
+    "objectID": "projects/project01/index.html",
+    "href": "projects/project01/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "projects/project01/index.html#overview",
+    "href": "projects/project01/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "projects/project01/index.html#project-status",
+    "href": "projects/project01/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "projects/project01/index.html#notes",
+    "href": "projects/project01/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "projects/project12/papers.html",
+    "href": "projects/project12/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "projects/project12/papers.html#project-papers-and-references",
+    "href": "projects/project12/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "projects/project12/code.html",
+    "href": "projects/project12/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project12/code.html#project-code-and-workflows",
+    "href": "projects/project12/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "projects/project12/code.html#reproducibility-notes",
+    "href": "projects/project12/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project12/videos.html",
+    "href": "projects/project12/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "projects/project12/videos.html#project-videos",
+    "href": "projects/project12/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "projects/project15/peers.html",
+    "href": "projects/project15/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "projects/project15/peers.html#project-peers-and-collaborators",
+    "href": "projects/project15/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  },
+  {
+    "objectID": "projects/project15/index.html",
+    "href": "projects/project15/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "projects/project15/index.html#overview",
+    "href": "projects/project15/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "projects/project15/index.html#project-status",
+    "href": "projects/project15/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "projects/project15/index.html#notes",
+    "href": "projects/project15/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "projects/project14/papers.html",
+    "href": "projects/project14/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "projects/project14/papers.html#project-papers-and-references",
+    "href": "projects/project14/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "projects/project14/code.html",
+    "href": "projects/project14/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project14/code.html#project-code-and-workflows",
+    "href": "projects/project14/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "projects/project14/code.html#reproducibility-notes",
+    "href": "projects/project14/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project14/videos.html",
+    "href": "projects/project14/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "projects/project14/videos.html#project-videos",
+    "href": "projects/project14/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "projects/project13/peers.html",
+    "href": "projects/project13/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "projects/project13/peers.html#project-peers-and-collaborators",
+    "href": "projects/project13/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  },
+  {
+    "objectID": "projects/project13/index.html",
+    "href": "projects/project13/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "projects/project13/index.html#overview",
+    "href": "projects/project13/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "projects/project13/index.html#project-status",
+    "href": "projects/project13/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "projects/project13/index.html#notes",
+    "href": "projects/project13/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "projects/project13/videos.html",
+    "href": "projects/project13/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "projects/project13/videos.html#project-videos",
+    "href": "projects/project13/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "projects/project13/code.html",
+    "href": "projects/project13/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project13/code.html#project-code-and-workflows",
+    "href": "projects/project13/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "projects/project13/code.html#reproducibility-notes",
+    "href": "projects/project13/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project13/papers.html",
+    "href": "projects/project13/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "projects/project13/papers.html#project-papers-and-references",
+    "href": "projects/project13/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "projects/project14/index.html",
+    "href": "projects/project14/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "projects/project14/index.html#overview",
+    "href": "projects/project14/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "projects/project14/index.html#project-status",
+    "href": "projects/project14/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "projects/project14/index.html#notes",
+    "href": "projects/project14/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "projects/project14/peers.html",
+    "href": "projects/project14/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "projects/project14/peers.html#project-peers-and-collaborators",
+    "href": "projects/project14/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  },
+  {
+    "objectID": "projects/project15/videos.html",
+    "href": "projects/project15/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "projects/project15/videos.html#project-videos",
+    "href": "projects/project15/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "projects/project15/code.html",
+    "href": "projects/project15/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project15/code.html#project-code-and-workflows",
+    "href": "projects/project15/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "projects/project15/code.html#reproducibility-notes",
+    "href": "projects/project15/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project15/papers.html",
+    "href": "projects/project15/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "projects/project15/papers.html#project-papers-and-references",
+    "href": "projects/project15/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "projects/project12/index.html",
+    "href": "projects/project12/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "projects/project12/index.html#overview",
+    "href": "projects/project12/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "projects/project12/index.html#project-status",
+    "href": "projects/project12/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "projects/project12/index.html#notes",
+    "href": "projects/project12/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "projects/project12/peers.html",
+    "href": "projects/project12/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "projects/project12/peers.html#project-peers-and-collaborators",
+    "href": "projects/project12/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  },
+  {
+    "objectID": "projects/project01/videos.html",
+    "href": "projects/project01/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "projects/project01/videos.html#project-videos",
+    "href": "projects/project01/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "projects/project01/code.html",
+    "href": "projects/project01/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project01/code.html#project-code-and-workflows",
+    "href": "projects/project01/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "projects/project01/code.html#reproducibility-notes",
+    "href": "projects/project01/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project01/papers.html",
+    "href": "projects/project01/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "projects/project01/papers.html#project-papers-and-references",
+    "href": "projects/project01/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "projects/project06/index.html",
+    "href": "projects/project06/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "projects/project06/index.html#overview",
+    "href": "projects/project06/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "projects/project06/index.html#project-status",
+    "href": "projects/project06/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "projects/project06/index.html#notes",
+    "href": "projects/project06/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "projects/project06/peers.html",
+    "href": "projects/project06/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "projects/project06/peers.html#project-peers-and-collaborators",
+    "href": "projects/project06/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  },
+  {
+    "objectID": "projects/project08/videos.html",
+    "href": "projects/project08/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "projects/project08/videos.html#project-videos",
+    "href": "projects/project08/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "projects/project08/code.html",
+    "href": "projects/project08/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project08/code.html#project-code-and-workflows",
+    "href": "projects/project08/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "projects/project08/code.html#reproducibility-notes",
+    "href": "projects/project08/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project08/papers.html",
+    "href": "projects/project08/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "projects/project08/papers.html#project-papers-and-references",
+    "href": "projects/project08/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "projects/project09/index.html",
+    "href": "projects/project09/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "projects/project09/index.html#overview",
+    "href": "projects/project09/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "projects/project09/index.html#project-status",
+    "href": "projects/project09/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "projects/project09/index.html#notes",
+    "href": "projects/project09/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "projects/project09/peers.html",
+    "href": "projects/project09/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "projects/project09/peers.html#project-peers-and-collaborators",
+    "href": "projects/project09/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  },
+  {
+    "objectID": "projects/project07/videos.html",
+    "href": "projects/project07/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "projects/project07/videos.html#project-videos",
+    "href": "projects/project07/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "projects/project07/code.html",
+    "href": "projects/project07/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project07/code.html#project-code-and-workflows",
+    "href": "projects/project07/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "projects/project07/code.html#reproducibility-notes",
+    "href": "projects/project07/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project07/papers.html",
+    "href": "projects/project07/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "projects/project07/papers.html#project-papers-and-references",
+    "href": "projects/project07/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "projects/project10/index.html",
+    "href": "projects/project10/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "projects/project10/index.html#overview",
+    "href": "projects/project10/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "projects/project10/index.html#project-status",
+    "href": "projects/project10/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "projects/project10/index.html#notes",
+    "href": "projects/project10/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "projects/project10/peers.html",
+    "href": "projects/project10/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "projects/project10/peers.html#project-peers-and-collaborators",
+    "href": "projects/project10/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  },
+  {
+    "objectID": "projects/project11/videos.html",
+    "href": "projects/project11/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "projects/project11/videos.html#project-videos",
+    "href": "projects/project11/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "projects/project11/code.html",
+    "href": "projects/project11/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project11/code.html#project-code-and-workflows",
+    "href": "projects/project11/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "projects/project11/code.html#reproducibility-notes",
+    "href": "projects/project11/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project11/papers.html",
+    "href": "projects/project11/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "projects/project11/papers.html#project-papers-and-references",
+    "href": "projects/project11/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "projects/project16/index.html",
+    "href": "projects/project16/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "projects/project16/index.html#overview",
+    "href": "projects/project16/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "projects/project16/index.html#project-status",
+    "href": "projects/project16/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "projects/project16/index.html#notes",
+    "href": "projects/project16/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "projects/project16/peers.html",
+    "href": "projects/project16/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "projects/project16/peers.html#project-peers-and-collaborators",
+    "href": "projects/project16/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  },
+  {
+    "objectID": "projects/project05/videos.html",
+    "href": "projects/project05/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "projects/project05/videos.html#project-videos",
+    "href": "projects/project05/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "projects/project05/code.html",
+    "href": "projects/project05/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project05/code.html#project-code-and-workflows",
+    "href": "projects/project05/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "projects/project05/code.html#reproducibility-notes",
+    "href": "projects/project05/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project05/papers.html",
+    "href": "projects/project05/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "projects/project05/papers.html#project-papers-and-references",
+    "href": "projects/project05/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "projects/project02/index.html",
+    "href": "projects/project02/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "projects/project02/index.html#overview",
+    "href": "projects/project02/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "projects/project02/index.html#project-status",
+    "href": "projects/project02/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "projects/project02/index.html#notes",
+    "href": "projects/project02/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "projects/project02/peers.html",
+    "href": "projects/project02/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "projects/project02/peers.html#project-peers-and-collaborators",
+    "href": "projects/project02/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  },
+  {
+    "objectID": "projects/project03/videos.html",
+    "href": "projects/project03/videos.html",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings.\n\n\n\n\n\n\n\n\n\n\n\n\nVideo Title\nType\nPresenter\nDate\nLink\nNotes\n\n\n\n\nIntro video\nOverview\nPresenter name\n2026-01-01\n\nShort description\n\n\nCode walkthrough\nTutorial\nPresenter name\n2026-01-01\n\nShort description"
+  },
+  {
+    "objectID": "projects/project03/videos.html#project-videos",
+    "href": "projects/project03/videos.html#project-videos",
+    "title": "Videos",
+    "section": "",
+    "text": "Collect lectures, demos, code walkthroughs, and presentation recordings."
+  },
+  {
+    "objectID": "projects/project03/code.html",
+    "href": "projects/project03/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis.\n\n\n\n\nCode / Script\nPurpose\nLanguage\nFolder or Link\nNotes\n\n\n\n\nanalysis.R\nMain analysis script\nR\n\n\n\n\nqc_pipeline.R\nQC pipeline\nR\n\n\n\n\n\n\n\n\nRequired R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project03/code.html#project-code-and-workflows",
+    "href": "projects/project03/code.html#project-code-and-workflows",
+    "title": "Code",
+    "section": "",
+    "text": "Document scripts, GitHub folders, workflows, and instructions for reproducing the analysis."
+  },
+  {
+    "objectID": "projects/project03/code.html#reproducibility-notes",
+    "href": "projects/project03/code.html#reproducibility-notes",
+    "title": "Code",
+    "section": "",
+    "text": "Required R packages:\nInput data:\nOutput files:\nHow to run:"
+  },
+  {
+    "objectID": "projects/project03/papers.html",
+    "href": "projects/project03/papers.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links.\n\n\n\n\nPaper Title\nAuthors\nYear\nJournal / Venue\nLink\nNotes\n\n\n\n\nPaper title here\nAuthor list\n2026\nJournal name\n\nShort note\n\n\nAnother paper\nAuthor list\n2025\nJournal name\n\nShort note"
+  },
+  {
+    "objectID": "projects/project03/papers.html#project-papers-and-references",
+    "href": "projects/project03/papers.html#project-papers-and-references",
+    "title": "Papers",
+    "section": "",
+    "text": "Use this page to keep publications, working papers, background references, and manuscript links."
+  },
+  {
+    "objectID": "projects/project04/index.html",
+    "href": "projects/project04/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "projects/project04/index.html#overview",
+    "href": "projects/project04/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "projects/project04/index.html#project-status",
+    "href": "projects/project04/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "projects/project04/index.html#notes",
+    "href": "projects/project04/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "projects/project04/peers.html",
+    "href": "projects/project04/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "projects/project04/peers.html#project-peers-and-collaborators",
+    "href": "projects/project04/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Project catalog\nAll projects\nA fuller project directory with quick links to collaborators, papers, code, and videos.\n\n\n\n\n\n\n\nproject01\nProject 1: Genetic QC Pipeline\nA reproducible quality-control workflow for genotype data, including missingness, HWE, MAF, sex checks, ancestry checks, and relatedness.\n\nActive\n\n\n\nPeers\nAlice Smith; John Doe; Maria Chen\n\n\nTopics\nGenetics; QC; PLINK; Relatedness\n\n\nPapers\nGenotype quality control best practices; PC-AiR ancestry inference; PC-Relate relatedness estimation\n\n\nCode keywords\nPLINK; KING; PC-AiR; PC-Relate; HWE; MAF; missingness; sex check\n\n\n\nOpen overview\nPeers\nPapers\nCode\nVideos\n\n\n\n\n\nproject02\nProject 2: Imaging Genetics\nA workflow connecting brain imaging phenotypes with genomic variation, including site adjustment and reproducible GWAS workflows.\n\nPlanning\n\n\n\nPeers\nDavid Lee; Priya Shah; Emily Wilson\n\n\nTopics\nMRI; GWAS; Brain phenotypes; Imaging genetics\n\n\nPapers\nImaging genetics methods; Brain phenotype GWAS; Multi-site neuroimaging harmonization\n\n\nCode keywords\nMRI phenotypes; GWAS; covariate adjustment; site effects; batch correction\n\n\n\nOpen overview\nPeers\nPapers\nCode\nVideos\n\n\n\n\n\nproject03\nProject 3: Olink Proteomics\nProteomics data processing and QC for Olink NPX measurements, with attention to plate effects, normalization, and reproducibility.\n\nActive\n\n\n\nPeers\nNora Ahmed; Ryan Brown; Harshitha Rao\n\n\nTopics\nOlink; Proteomics; NPX; Batch effects\n\n\nPapers\nOlink NPX normalization; Proteomics batch correction; Protein QC methods\n\n\nCode keywords\nOlinkAnalyze; NPX; ComBat; limma; plate effect; LOD; protein QC\n\n\n\nOpen overview\nPeers\nPapers\nCode\nVideos\n\n\n\n\n\nproject04\nProject 4: Heritability Estimation\nMethods for SNP heritability estimation using HE regression, REML, LDSC, and adjusted HE approaches.\n\nDrafting\n\n\n\nPeers\nWei Zhang; Lin Chen; Sandra Safo\n\n\nTopics\nHeritability; HE regression; LDSC; REML\n\n\nPapers\nHaseman-Elston regression; LDSC heritability; Adjusted HE regression; Variance component models\n\n\nCode keywords\nHE regression; REML; GCTA; LDSC; AdjHE; PC adjustment; random effects\n\n\n\nOpen overview\nPeers\nPapers\nCode\nVideos\n\n\n\n\n\nproject05\nProject 5: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nNot started\n\n\n\nPeers\nPeer 1; Peer 2; Peer 3\n\n\nTopics\nTopic 1; Topic 2; Topic 3\n\n\nPapers\nMain paper title; Background paper title; Methods paper title\n\n\nCode keywords\nR; Quarto; workflow; analysis script; reproducibility\n\n\n\nOpen overview\nPeers\nPapers\nCode\nVideos\n\n\n\n\n\nproject06\nProject 6: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nNot started\n\n\n\nPeers\nPeer 1; Peer 2; Peer 3\n\n\nTopics\nTopic 1; Topic 2; Topic 3\n\n\nPapers\nMain paper title; Background paper title; Methods paper title\n\n\nCode keywords\nR; Quarto; workflow; analysis script; reproducibility\n\n\n\nOpen overview\nPeers\nPapers\nCode\nVideos\n\n\n\n\n\nproject07\nProject 7: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nNot started\n\n\n\nPeers\nPeer 1; Peer 2; Peer 3\n\n\nTopics\nTopic 1; Topic 2; Topic 3\n\n\nPapers\nMain paper title; Background paper title; Methods paper title\n\n\nCode keywords\nR; Quarto; workflow; analysis script; reproducibility\n\n\n\nOpen overview\nPeers\nPapers\nCode\nVideos\n\n\n\n\n\nproject08\nProject 8: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nNot started\n\n\n\nPeers\nPeer 1; Peer 2; Peer 3\n\n\nTopics\nTopic 1; Topic 2; Topic 3\n\n\nPapers\nMain paper title; Background paper title; Methods paper title\n\n\nCode keywords\nR; Quarto; workflow; analysis script; reproducibility\n\n\n\nOpen overview\nPeers\nPapers\nCode\nVideos\n\n\n\n\n\nproject09\nProject 9: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nNot started\n\n\n\nPeers\nPeer 1; Peer 2; Peer 3\n\n\nTopics\nTopic 1; Topic 2; Topic 3\n\n\nPapers\nMain paper title; Background paper title; Methods paper title\n\n\nCode keywords\nR; Quarto; workflow; analysis script; reproducibility\n\n\n\nOpen overview\nPeers\nPapers\nCode\nVideos\n\n\n\n\n\nproject10\nProject 10: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nNot started\n\n\n\nPeers\nPeer 1; Peer 2; Peer 3\n\n\nTopics\nTopic 1; Topic 2; Topic 3\n\n\nPapers\nMain paper title; Background paper title; Methods paper title\n\n\nCode keywords\nR; Quarto; workflow; analysis script; reproducibility\n\n\n\nOpen overview\nPeers\nPapers\nCode\nVideos\n\n\n\n\n\nproject11\nProject 11: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nNot started\n\n\n\nPeers\nPeer 1; Peer 2; Peer 3\n\n\nTopics\nTopic 1; Topic 2; Topic 3\n\n\nPapers\nMain paper title; Background paper title; Methods paper title\n\n\nCode keywords\nR; Quarto; workflow; analysis script; reproducibility\n\n\n\nOpen overview\nPeers\nPapers\nCode\nVideos\n\n\n\n\n\nproject12\nProject 12: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nNot started\n\n\n\nPeers\nPeer 1; Peer 2; Peer 3\n\n\nTopics\nTopic 1; Topic 2; Topic 3\n\n\nPapers\nMain paper title; Background paper title; Methods paper title\n\n\nCode keywords\nR; Quarto; workflow; analysis script; reproducibility\n\n\n\nOpen overview\nPeers\nPapers\nCode\nVideos\n\n\n\n\n\nproject13\nProject 13: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nNot started\n\n\n\nPeers\nPeer 1; Peer 2; Peer 3\n\n\nTopics\nTopic 1; Topic 2; Topic 3\n\n\nPapers\nMain paper title; Background paper title; Methods paper title\n\n\nCode keywords\nR; Quarto; workflow; analysis script; reproducibility\n\n\n\nOpen overview\nPeers\nPapers\nCode\nVideos\n\n\n\n\n\nproject14\nProject 14: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nNot started\n\n\n\nPeers\nPeer 1; Peer 2; Peer 3\n\n\nTopics\nTopic 1; Topic 2; Topic 3\n\n\nPapers\nMain paper title; Background paper title; Methods paper title\n\n\nCode keywords\nR; Quarto; workflow; analysis script; reproducibility\n\n\n\nOpen overview\nPeers\nPapers\nCode\nVideos\n\n\n\n\n\nproject15\nProject 15: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nNot started\n\n\n\nPeers\nPeer 1; Peer 2; Peer 3\n\n\nTopics\nTopic 1; Topic 2; Topic 3\n\n\nPapers\nMain paper title; Background paper title; Methods paper title\n\n\nCode keywords\nR; Quarto; workflow; analysis script; reproducibility\n\n\n\nOpen overview\nPeers\nPapers\nCode\nVideos\n\n\n\n\n\nproject16\nProject 16: Project Title Here\nShort project description goes here. Add the scientific goal, data source, workflow, and main deliverables.\n\nNot started\n\n\n\nPeers\nPeer 1; Peer 2; Peer 3\n\n\nTopics\nTopic 1; Topic 2; Topic 3\n\n\nPapers\nMain paper title; Background paper title; Methods paper title\n\n\nCode keywords\nR; Quarto; workflow; analysis script; reproducibility\n\n\n\nOpen overview\nPeers\nPapers\nCode\nVideos"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n\n\n\nThis website is generated with Quarto and hosted on GitHub Pages. Project metadata live in data/projects.csv, while detailed content lives in Markdown files."
+  },
+  {
+    "objectID": "about.html#how-to-update-this-site",
+    "href": "about.html#how-to-update-this-site",
+    "title": "About",
+    "section": "How to update this site",
+    "text": "How to update this site\n\nEdit data/projects.csv to update searchable metadata.\nEdit project Markdown files inside projects/projectXX/.\nRender the website:\n\nquarto render\n\nCommit and push:\n\ngit add .\ngit commit -m \"Update project website\"\ngit push"
+  },
+  {
+    "objectID": "about.html#where-content-lives",
+    "href": "about.html#where-content-lives",
+    "title": "About",
+    "section": "Where content lives",
+    "text": "Where content lives\n\n\n\nContent\nFile location\n\n\n\n\nSearch metadata\ndata/projects.csv\n\n\nProject overview\nprojects/projectXX/index.md\n\n\nPeers\nprojects/projectXX/peers.md\n\n\nPapers\nprojects/projectXX/papers.md\n\n\nCode\nprojects/projectXX/code.md\n\n\nVideos\nprojects/projectXX/videos.md"
+  },
+  {
+    "objectID": "project_page_templates/index.html",
+    "href": "project_page_templates/index.html",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.\n\n\n\n\nCollaborators, peer reviewers, advisors, and contributors.\nView peer list\n\n\n\nCore references, manuscripts, preprints, and background reading.\nView papers\n\n\n\nAnalysis scripts, workflows, GitHub folders, and reproducibility notes.\nView code\n\n\n\nLectures, demos, tutorials, and recorded presentations.\nView videos\n\n\n\n\n\n\n\n\n\n\n\n\nItem\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles\n\n\n\n\n\n\nAdd project-specific notes here."
+  },
+  {
+    "objectID": "project_page_templates/index.html#overview",
+    "href": "project_page_templates/index.html#overview",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs."
+  },
+  {
+    "objectID": "project_page_templates/index.html#project-status",
+    "href": "project_page_templates/index.html#project-status",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Item\nStatus\nNotes\n\n\n\n\nPapers added\nNot started\nAdd DOI, PubMed, arXiv, or PDF links\n\n\nCode added\nNot started\nAdd GitHub folders or script names\n\n\nVideos added\nNot started\nAdd unlisted YouTube, Drive, Box, or institutional links\n\n\nPeer list finalized\nNot started\nAdd collaborators and roles"
+  },
+  {
+    "objectID": "project_page_templates/index.html#notes",
+    "href": "project_page_templates/index.html#notes",
+    "title": "Project XX: Project Title Here",
+    "section": "",
+    "text": "Add project-specific notes here."
+  },
+  {
+    "objectID": "project_page_templates/peers.html",
+    "href": "project_page_templates/peers.html",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors.\n\n\n\n\nName\nRole\nInstitution\nEmail or Link\nNotes\n\n\n\n\nPeer 1\nCollaborator\nInstitution\n\n\n\n\nPeer 2\nAnalyst\nInstitution\n\n\n\n\nPeer 3\nAdvisor\nInstitution"
+  },
+  {
+    "objectID": "project_page_templates/peers.html#project-peers-and-collaborators",
+    "href": "project_page_templates/peers.html#project-peers-and-collaborators",
+    "title": "Peers",
+    "section": "",
+    "text": "Use this page to list collaborators, peer reviewers, advisors, and contributors."
+  }
+]
