@@ -1,21 +1,16 @@
-# Project XX: Project Title Here
+# Project 2: Brain2Image
 
 ::: {.project-detail-hero}
 ## Overview
 
-Write a short description of this project here. Describe the scientific goal, data source, workflow, and intended outputs.
+Brain2Image uses EEG signals to decode high-level semantic object categories and uses those categories to generate a visual image.
 
 :::
 
 ::: {.project-section-grid}
 
 ::: {.project-section-card}
-### Peers
 
-Collaborators, peer reviewers, advisors, and contributors.
-
-[View peer list](peers.md)
-:::
 
 ::: {.project-section-card}
 ### Papers
