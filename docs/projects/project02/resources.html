@@ -168,8 +168,8 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="repositories-and-software" class="level2">
-<h2 class="anchored" data-anchor-id="repositories-and-software">Repositories and software</h2>
+<section id=" Machine Learning for EEG Classification" class="level2">
+<h2 class="anchored" data-anchor-id="Machine-Learning-for-EEG-Classification">Machine Learning for EEG Classification</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -177,29 +177,50 @@ ul.task-list li input[type="checkbox"] {
 <th>Type</th>
 <th>Description</th>
 <th>Link</th>
-<th>Notes</th>
+<th>Requirement</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Brain2Image software pipeline</td>
-<td>Project repository</td>
-<td>Code for EEG preprocessing, classification, semantic decoding, and image generation.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add the project GitHub repository.</td>
+<td>Scikit-learn Documentation and Tutorials</td>
+<td>Informational Website/Tutorial</td>
+<td>Learn how to build and evaluate simple models such as Logistic Regression, SVMs, Random Forests, and other classifiers.</td>
+<td><a href="https://scikit-learn.org/stable/" title="Scikit-learn">Scikit-learn</a></td>
+<td>Required</td>
 </tr>
 <tr class="even">
-<td>Hardware and filter design</td>
-<td>Hardware / documentation</td>
-<td>Circuit, filter, and acquisition resources used by the hardware team.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add EasyEDA files or hardware documentation.</td>
+<td>PyTorch Tutorials</td>
+<td>Tutorial</td>
+<td>Learn neural networks and DL models for EEG applications.</td>
+<td><a href="https://pytorch.org/tutorials/" title="Pytorch">Pytorch</a></td>
+<td>Strongly Recommended</td>
+</tr>
+<tr class="odd">
+<td>Motor Imagery EEG Classification (BCI Competition IV)</td>
+<td>YouTube Video</td>
+<td>Using MNE, walks through preprocessing, Common Spatial Patterns (CSP), feature extraction, and classification on a real BCI dataset.</td>
+<td><a href="https://www.youtube.com/watch?v=EAQcu6DLAS0" title="Classifying Motor-Imagery EEG Data">Classifying Motor-Imagery EEG Data</a></td>
+<td>Strongly Recommended</td>
+</tr>
+<tr class="even">
+<td>Sleep Classification with Python, MNE & Scikit-learn</td>
+<td>YouTube Video</td>
+<td>Complete EEG classification project for a certain application (sleep). Covers preprocessing through model evaluation and cross-validation. Great framework to follow as we develop our pipeline.</td>
+<td><a href="https://www.youtube.com/watch?v=0Msr2YBL0lE" title="Sleep Classification with Python">Sleep Classification with Python</a></td>
+<td>Strongly Recommended</td>
+</tr>
+<tr class="odd">
+<td>TorchEEG Documentation</td>
+<td>Informational Website</td>
+<td>Great for once we move beyond classical ML into transformer models.</td>
+<td><a href="https://torcheeg.readthedocs.io/" title="TorchEEG">TorchEEG</a></td>
+<td>Strongly Recommended</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="videos-and-tutorials" class="level2">
-<h2 class="anchored" data-anchor-id="videos-and-tutorials">Videos and tutorials</h2>
+<section id="ESP32 PCB Design" class="level2">
+<h2 class="anchored" data-anchor-id="ESP32-PCB-Design">ESP32 PCB Design</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -207,23 +228,37 @@ ul.task-list li input[type="checkbox"] {
 <th>Type</th>
 <th>Description</th>
 <th>Link</th>
-<th>Notes</th>
+<th>Requirement</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Brain2Image project overview</td>
-<td>Project video</td>
-<td>An overview of the research question, hardware plan, and software pipeline.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add a presentation or project-introduction video.</td>
+<td>Printed Circuit Board (PCB) Design</td>
+<td>YouTube Video</td>
+<td>A video that explains how to design a PCB with an ESP32 microcontroller. Includes battery charger, because we will most likely need portable power.</td>
+<td><a href="https://www.youtube.com/watch?v=vBjyXJAoT9o" title="Design an ESP32 Board">Design an ESP32 Board</a></td>
+<td>Strongly Recommended</td>
 </tr>
 <tr class="even">
-<td>EEG decoding walkthrough</td>
-<td>Tutorial</td>
-<td>A tutorial covering EEG preprocessing and category-classification workflows.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add an EEGLAB, MATLAB, MNE-Python, or transformer tutorial.</td>
+<td>ESP32 Resources</td>
+<td>Informational Website</td>
+<td>ESP32 pinout to explain what each part of the ESP32 does. At first we probably have to use a devkit because of money, but it would be nice to make everything in house. Website also has a bunch of other resources on ESP32.</td>
+<td><a href="https://randomnerdtutorials.com/esp32-s3-devkitc-pinout-guide/" title="Random Nerd Tutorials">Random Nerd Tutorials</a></td>
+<td>Strongly Recommended</td>
+</tr>
+<tr class="odd">
+<td>ESP32 Hardware Design Guidelines</td>
+<td>Informational Website</td>
+<td>Espressif's official recommendations for PCB layout, power supply, RF layout, decoupling capacitors, crystal placement, and antenna design.</td>
+<td><a href="https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32/" title="Design an ESP32 Board">Design an ESP32 Board</a></td>
+<td>Strongly Recommended</td>
+</tr>
+<tr class="even">
+<td>Phil's Lab</td>
+<td>YouTube Channel</td>
+<td>Channel with practical PCB design videos covering ESP32s, embedded systems, layout, decoupling, and manufacturing.</td>
+<td><a href="https://www.youtube.com/@PhilsLab" title="Phil's Lab">Phil's Lab</a></td>
+<td>Recommended</td>
 </tr>
 </tbody>
 </table>
