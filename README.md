@@ -4,6 +4,7 @@ EVERYTHING IS MODIFIED THROUGH THE DOCS FOLDER
 
 This is a more polished drop-in replacement for your GitHub Pages project repository website.
 
+FIX: Resources link in every index is linked to Brain2Image!!! 
 ## Files included
 
 
