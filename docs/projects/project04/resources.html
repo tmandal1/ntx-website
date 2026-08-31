@@ -131,8 +131,8 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Project Manager:</strong> Amity (Ke Zhang)</p>
 <p><strong>Project type:</strong> Research</p>
 </section>
-<section id="literature-and-background" class="level2">
-<h2 class="anchored" data-anchor-id="literature-and-background">Literature and background</h2>
+<section id="Synchronized-Multimodal-Acquisition" class="level2">
+<h2 class="anchored" data-anchor-id="Synchronized-Multimodal-Acquisition">Synchronized Multimodal Acquisition (EEG + Physiology + Events)</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -140,91 +140,107 @@ ul.task-list li input[type="checkbox"] {
 <th>Type</th>
 <th>Description</th>
 <th>Link</th>
-<th>Notes</th>
+<th>Requirement</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Olfaction, EEG, and emotion</td>
-<td>Background literature</td>
-<td>Research on odor-evoked EEG responses and emotional-state measurement.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add a foundational olfaction or affective-EEG paper.</td>
+<td>Acquisition Standard / LSL</td>
+<td>Literature</td>
+<td>Synchronize EEG, optional EDA/ECG/PPG, stimulus events, questionnaire responses, and device logs using timestamps and event markers.</td>
+<td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12434378/" title="Synchronized Multimodal Recording">Synchronized Multimodal Recording</a></td>
+<td>Strongly Recommended</td>
 </tr>
 <tr class="even">
-<td>Computer-controlled olfactometers</td>
-<td>Methods literature</td>
-<td>Design and validation methods for timed, repeatable odor delivery.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add an olfactometer design or validation paper.</td>
+<td>Biosignal Toolkit / EDA–ECG–PPG</td>
+<td>Informational Website</td>
+<td>Process EDA, ECG/PPG, HRV, and respiration; align tonic/phasic and cardiac features with odor-onset windows.</td>
+<td><a href="https://neuropsychology.github.io/NeuroKit/" title="NeuroKit2">NeuroKit2</a></td>
+<td>Required</td>
 </tr>
-</tbody>
-</table>
-</section>
-<section id="repositories-and-software" class="level2">
-<h2 class="anchored" data-anchor-id="repositories-and-software">Repositories and software</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Resource</th>
-<th>Type</th>
-<th>Description</th>
-<th>Link</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
 <tr class="odd">
-<td>MindScents EEG analysis pipeline</td>
-<td>Project repository</td>
-<td>Python code for preprocessing, feature extraction, emotion classification, and validation.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add the project analysis repository.</td>
-</tr>
-<tr class="even">
-<td>Olfactometer control system</td>
-<td>Hardware / project repository</td>
-<td>Code, circuit designs, and build documentation for the computer-controlled olfactometer.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add the hardware repository or design folder.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="videos-and-tutorials" class="level2">
-<h2 class="anchored" data-anchor-id="videos-and-tutorials">Videos and tutorials</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Resource</th>
-<th>Type</th>
-<th>Description</th>
-<th>Link</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>MindScents prototype demonstration</td>
-<td>Project video</td>
-<td>A demonstration of the olfactometer concept, synchronized event markers, and EEG workflow.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add an EOH, Cozad, or prototype video.</td>
-</tr>
-<tr class="even">
-<td>EEG emotion-recognition tutorial</td>
+<td>Python Streaming Tutorial</td>
 <td>Tutorial</td>
-<td>A walkthrough of preprocessing and classifying EEG data for emotional-state research.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add a relevant analysis tutorial.</td>
+<td>Prototype and replay synchronized streams in Python; useful for future online inference and closed-loop scent-trigger experiments.</td>
+<td><a href="https://mne.tools/mne-lsl/stable/generated/tutorials/00_introduction.html" title="MNE-LSL Streaming Tutorial">MNE-LSL Streaming Tutorial</a></td>
+<td>Required</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="editing-notes" class="level2">
-<h2 class="anchored" data-anchor-id="editing-notes">Editing notes</h2>
-<p>Replace each <strong>Add link</strong> placeholder by changing <code>href="#"</code> to the full resource URL. You can also edit the resource titles, descriptions, types, and notes directly in this table.</p>
+<section id="EEG Preprocessing, Quality Control & Olfactory-Response Features" class="level2">
+<h2 class="anchored" data-anchor-id="EEG Preprocessing, Quality Control & Olfactory-Response Features">EEG Preprocessing, Quality Control & Olfactory-Response Features</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Resource</th>
+<th>Type</th>
+<th>Description</th>
+<th>Link</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>MNE-Python Tutorial</td>
+<td>Tutorial</td>
+<td>Build the core Raw → filtering/reference → events → epochs → baseline/QC → features workflow for scent and control trials.</td>
+<td><a href="https://mne.tools/stable/auto_tutorials/intro/10_overview.html" title="MNE Introduction">MNE Introduction</a></td>
+<td>Required</td>
+</tr>
+<tr class="even">
+<td>Artifact Handling and Quality Control</td>
+<td>Informational Website</td>
+<td>Identify and document eye, cardiac, line-noise, muscle, bad-channel, and motion artifacts without deleting stimulus-locked neural activity.</td>
+<td><a href="https://mne.tools/stable/auto_tutorials/preprocessing/40_artifact_correction_ica.html" title="ICA Artifact Repair">ICA Artifact Repair</a></td>
+<td>Required</td>
+</tr>
+<tr class="odd">
+<td>Time-Frequency Feature Engineering</td>
+<td>Tutorial</td>
+<td>Build the core Raw → filtering/reference → events → epochs → baseline/QC → features workflow for scent and control trials.</td>
+<td><a href="https://mne.tools/stable/auto_tutorials/time-freq/20_sensors_time_frequency.html" title="MNE Time-Frequency Tutorial">MNE Time-Frequency Tutorial</a></td>
+<td>Required</td>
+</tr>
+</tbody>
+</table>
 </section>
+<section id="Emotion Decoding, Personalization and Leakage-Safe Evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="Emotion Decoding, Personalization and Leakage-Safe Evaluation">Emotion Decoding, Personalization & Leakage-Safe Evaluation</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Resource</th>
+<th>Type</th>
+<th>Description</th>
+<th>Link</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Affective EEG Review</td>
+<td>Literature</td>
+<td>Covers emotion models, EEG features, datasets, preprocessing, model families, multimodal fusion, and unresolved generalization challenges.</td>
+<td><a href="https://doi.org/10.1145/3524499" title="Emotion-Recognition Review">Emotion-Recognition Review</a></td>
+<td>Required</td>
+</tr>
+<tr class="even">
+<td>Deep Learning Model Architecture</td>
+<td>Literature</td>
+<td>Compact CNN baseline suited to limited EEG datasets; compare it against interpretable SVM/logistic-regression baselines before complex personalization.</td>
+<td><a href="https://pubmed.ncbi.nlm.nih.gov/29932424/" title="EEGNet">EEGNet</a></td>
+<td>Required</td>
+</tr>
+<tr class="odd">
+<td>Leakage Control</td>
+<td>Informational Website</td>
+<td>Prevent trial leakage by splitting by participant/session; report balanced accuracy, F1, confusion matrices, confidence intervals, and within-subject baselines.</td>
+<td><a href="https://scikit-learn.org/stable/modules/cross_validation.html#cross-validation-iterators-for-grouped-data" title="Grouped Cross-Validation Guide">Grouped Cross-Validation Guide</a></td>
+<td>Required</td>
+</tr>
+</tbody>
+</table>
 </section>
 
 </main> <!-- /main -->
