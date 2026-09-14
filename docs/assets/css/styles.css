@@ -1486,7 +1486,6 @@ tbody tr:hover {
     animation-iteration-count: 1 !important;
   }
 } */
-
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
 
 :root {
@@ -2301,4 +2300,70 @@ tbody tr:hover {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
   }
+}
+
+/*
+ * Final table-theme guard.
+ * Some page generators and Bootstrap themes paint each table cell white,
+ * so these rules intentionally use higher specificity and !important.
+ */
+table.table,
+table.dataframe,
+.table-responsive > table,
+.project-detail-hero table,
+.catalog-card table {
+  --bs-table-color: #cdd6e7 !important;
+  --bs-table-bg: #0c1425 !important;
+  --bs-table-accent-bg: transparent !important;
+  --bs-table-striped-bg: #101b30 !important;
+  --bs-table-hover-bg: #142440 !important;
+  --bs-table-border-color: rgba(148, 163, 184, 0.18) !important;
+  color: #cdd6e7 !important;
+  background-color: #0c1425 !important;
+  border-color: rgba(148, 163, 184, 0.2) !important;
+}
+
+table > thead > tr > th,
+.table > thead > tr > th,
+.dataframe > thead > tr > th {
+  color: #ddecff !important;
+  background: #172642 !important;
+  border-color: rgba(148, 163, 184, 0.22) !important;
+  box-shadow: none !important;
+}
+
+table > tbody > tr > td,
+table > tbody > tr > th,
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.dataframe > tbody > tr > td,
+.dataframe > tbody > tr > th {
+  color: #c7d1e2 !important;
+  background: #0c1425 !important;
+  border-color: rgba(148, 163, 184, 0.15) !important;
+  box-shadow: none !important;
+}
+
+table > tbody > tr:nth-child(even) > td,
+table > tbody > tr:nth-child(even) > th,
+.table > tbody > tr:nth-child(even) > td,
+.table > tbody > tr:nth-child(even) > th,
+.dataframe > tbody > tr:nth-child(even) > td,
+.dataframe > tbody > tr:nth-child(even) > th {
+  background: #0f192c !important;
+}
+
+table > tbody > tr:hover > td,
+table > tbody > tr:hover > th,
+.table > tbody > tr:hover > td,
+.table > tbody > tr:hover > th,
+.dataframe > tbody > tr:hover > td,
+.dataframe > tbody > tr:hover > th {
+  background: #142440 !important;
+}
+
+table a,
+.table a,
+.dataframe a {
+  color: #79b8ff !important;
 }
