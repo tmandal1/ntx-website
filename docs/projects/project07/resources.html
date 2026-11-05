@@ -131,8 +131,8 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Project Managers:</strong> Agniva Chaudhuri; Atchaya Muthupalaniappan</p>
 <p><strong>Project type:</strong> Research</p>
 </section>
-<section id="literature-and-background" class="level2">
-<h2 class="anchored" data-anchor-id="literature-and-background">Literature and background</h2>
+<section id="electromyography" class="level2">
+<h2 class="anchored" data-anchor-id="electromyography">Electromyography (EMG)</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -140,29 +140,36 @@ ul.task-list li input[type="checkbox"] {
 <th>Type</th>
 <th>Description</th>
 <th>Link</th>
-<th>Notes</th>
+<th>Requirement</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>EMG hand-gesture classification</td>
-<td>Background literature</td>
-<td>Research on classifying hand gestures from forearm electromyography.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add a gesture-classification review or methods paper.</td>
+<td>EMG Fundamentals</td>
+<td>Documentation</td>
+<td>Intro to collecting EMG signals, electrode placement on muscles, developing an understanding of channels, and what EMG is used for.</td>
+<td><a href="https://docs.openbci.com/GettingStarted/Biosensing-Setups/EMGSetup/" title="OpenBCI EMG Setup">OpenBCI EMG Setup</a></td>
+<td>Required</td>
 </tr>
 <tr class="even">
-<td>EMG-controlled robotics</td>
-<td>Application literature</td>
-<td>Research on translating EMG signals into commands for robots or prosthetic devices.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add an EMG-controlled robot paper.</td>
+<td>Open-Source EMG Datasets</td>
+<td>Dataset Repository</td>
+<td>Introduces open-source EMG datasets for members to familiarize themselves — useful for understanding what a real EMG dataset looks like before creating our own.</td>
+<td><a href="https://libemg.github.io/libemg/documentation/data/data.html" title="LibEMG Datasets">LibEMG Datasets</a></td>
+<td>Strongly Recommended</td>
+</tr>
+<tr class="odd">
+<td>EMG-Controlled Mobile Robot Paper</td>
+<td>Research Paper</td>
+<td>Research paper referenced for the project, provides a clear framework for the semester while deeply discussing how EMG is applied to robots in a real-life example.</td>
+<td><a href="https://www.mdpi.com/2218-6581/7/3/36" title="MDPI Robotics: EMG Robot">MDPI Robotics: EMG Robot</a></td>
+<td>Required</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="repositories-and-software" class="level2">
-<h2 class="anchored" data-anchor-id="repositories-and-software">Repositories and software</h2>
+<section id="ml-classification" class="level2">
+<h2 class="anchored" data-anchor-id="ml-classification">ML + Classification</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -170,29 +177,36 @@ ul.task-list li input[type="checkbox"] {
 <th>Type</th>
 <th>Description</th>
 <th>Link</th>
-<th>Notes</th>
+<th>Requirement</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>NeuroRover classification pipeline</td>
-<td>Project repository</td>
-<td>Code for EMG acquisition, preprocessing, feature extraction, and gesture classification.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add the project or LibEMG repository.</td>
+<td>NumPy Documentation</td>
+<td>Documentation</td>
+<td>Intro to NumPy: discusses arrays, mathematical operations, and basic tools needed for data manipulation and EMG processing.</td>
+<td><a href="https://numpy.org/doc/" title="NumPy Documentation">NumPy Documentation</a></td>
+<td>Required</td>
 </tr>
 <tr class="even">
-<td>Rover control system</td>
-<td>Project repository</td>
-<td>Code and hardware documentation for translating model predictions into motor commands.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add the rover-control repository.</td>
+<td>Scikit-learn Getting Started</td>
+<td>Documentation</td>
+<td>A simple introduction to fitting models, existing methods for preprocessing data through Python, and developing an accurate model.</td>
+<td><a href="https://scikit-learn.org/stable/getting_started.html" title="Scikit-learn Getting Started">Scikit-learn Getting Started</a></td>
+<td>Required</td>
+</tr>
+<tr class="odd">
+<td>LibEMG Classification Practice</td>
+<td>Dataset Repository</td>
+<td>Provides a set of real EMG datasets containing multiple muscle movements and hand gestures for preprocessing practice and training classifiers.</td>
+<td><a href="https://libemg.github.io/libemg/documentation/data/data.html" title="LibEMG Data">LibEMG Data</a></td>
+<td>Strongly Recommended</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="videos-and-tutorials" class="level2">
-<h2 class="anchored" data-anchor-id="videos-and-tutorials">Videos and tutorials</h2>
+<section id="robotics-electronics" class="level2">
+<h2 class="anchored" data-anchor-id="robotics-electronics">Robotics + Electronics</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -200,23 +214,67 @@ ul.task-list li input[type="checkbox"] {
 <th>Type</th>
 <th>Description</th>
 <th>Link</th>
-<th>Notes</th>
+<th>Requirement</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>EMG data-collection demonstration</td>
-<td>Project video</td>
-<td>A demonstration of electrode placement, hand gestures, and signal recording.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add a project demonstration.</td>
+<td>Arduino Documentation</td>
+<td>Documentation</td>
+<td>Introduction to microcontrollers, digital and analog inputs, PWM, and basic hardware concepts. We will most likely be using Arduino for the project.</td>
+<td><a href="https://docs.arduino.cc/learn/" title="Arduino Docs">Arduino Docs</a></td>
+<td>Required</td>
 </tr>
 <tr class="even">
-<td>EMG-controlled rover demonstration</td>
-<td>Project video</td>
-<td>A demonstration of real-time gesture classification and rover movement.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add the final or in-progress robot video.</td>
+<td>Arduino Tutorial for Beginners</td>
+<td>YouTube Video</td>
+<td>Teaching Arduino setup, programming, connecting hardware components — creating familiarity and an eventual deep understanding of how Arduino works.</td>
+<td><a href="https://www.youtube.com/watch?v=JnJIKX5J0Cc" title="Arduino Tutorial 2023">Arduino Tutorial 2023</a></td>
+<td>Strongly Recommended</td>
+</tr>
+<tr class="odd">
+<td>ROS Documentation</td>
+<td>Documentation</td>
+<td>Introducing how EMG acquisition, classifier, microcontroller, motors, and ROS can be integrated into a working machine that responds to gestures.</td>
+<td><a href="https://docs.ros.org/en/jazzy/Tutorials/Beginner-CLI-Tools.html" title="ROS Beginner Tutorials">ROS Beginner Tutorials</a></td>
+<td>Recommended</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="git-github" class="level2">
+<h2 class="anchored" data-anchor-id="git-github">Git + GitHub</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Resource</th>
+<th>Type</th>
+<th>Description</th>
+<th>Link</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Introduction to GitHub</td>
+<td>Tutorial</td>
+<td>Introduction to repositories, commits, pushing and pulling, branches, and good practices.</td>
+<td><a href="https://www.geeksforgeeks.org/git/introduction-to-github/" title="GeeksforGeeks: Intro to GitHub">GeeksforGeeks: Intro to GitHub</a></td>
+<td>Strongly Recommended</td>
+</tr>
+<tr class="even">
+<td>GitHub Pull Requests Documentation</td>
+<td>Documentation</td>
+<td>Official GitHub documentation on creating and managing pull requests.</td>
+<td><a href="https://docs.github.com/en/pull-requests" title="GitHub Pull Requests">GitHub Pull Requests</a></td>
+<td>Recommended</td>
+</tr>
+<tr class="odd">
+<td>GitHub Skills: Introduction to GitHub</td>
+<td>Tutorial</td>
+<td>GitHub provides a detailed walkthrough on creating your own site along with creating repositories, making commits, and working with branches.</td>
+<td><a href="https://github.com/skills/introduction-to-github" title="GitHub Skills">GitHub Skills</a></td>
+<td>Recommended</td>
 </tr>
 </tbody>
 </table>

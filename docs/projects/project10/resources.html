@@ -131,8 +131,8 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Project Managers:</strong> Evan Sun; Ellen Hsuan</p>
 <p><strong>Project type:</strong> Startup</p>
 </section>
-<section id="literature-and-background" class="level2">
-<h2 class="anchored" data-anchor-id="literature-and-background">Literature and background</h2>
+<section id="surface-emg-sensors" class="level2">
+<h2 class="anchored" data-anchor-id="surface-emg-sensors">Surface Electromyography (EMG) Sensors</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -140,29 +140,50 @@ ul.task-list li input[type="checkbox"] {
 <th>Type</th>
 <th>Description</th>
 <th>Link</th>
-<th>Notes</th>
+<th>Requirement</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Surface EMG in rehabilitation</td>
-<td>Background literature</td>
-<td>Research on using surface electromyography for rehabilitation and home monitoring.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add a rehabilitation or wearable-EMG review.</td>
+<td>Electrode Placement</td>
+<td>Informational Website</td>
+<td>How do dry electrodes work? Recommended electrode placements for EMG sensors.</td>
+<td><a href="https://wiki.dfrobot.com/sen0240/docs/20735" title="DFRobot Dry Electrode Guide">DFRobot Dry Electrode Guide</a></td>
+<td>Required</td>
 </tr>
 <tr class="even">
-<td>EMG muscle-fatigue estimation</td>
-<td>Methods literature</td>
-<td>Research on time-domain, frequency-domain, and fatigue-index methods for EMG.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add a signal-processing or validation paper.</td>
+<td>Dry Electrodes Article</td>
+<td>Research Paper</td>
+<td>IEEE paper on dry electrode design and usage for EMG signal acquisition.</td>
+<td><a href="https://www.ieeespmb.org/2019/papers/l02_04.pdf" title="IEEE Dry Electrodes Paper">IEEE Dry Electrodes Paper</a></td>
+<td>Required</td>
+</tr>
+<tr class="odd">
+<td>Noise Reduction</td>
+<td>Informational Website</td>
+<td>How to reduce outside noise interference — a key barrier for EMG consistency, especially for sweat and patient movement.</td>
+<td><a href="https://natus.com/insights/how-to-reduce-noise-interference-in-nerve-conduction-studies-and-emg-signals/" title="Natus: EMG Noise Reduction">Natus: EMG Noise Reduction</a></td>
+<td>Strongly Recommended</td>
+</tr>
+<tr class="even">
+<td>Fundamental Concepts in EMG Signal Acquisition</td>
+<td>Technical Guide</td>
+<td>Delsys tutorial covering fundamental concepts in EMG signal acquisition.</td>
+<td><a href="https://www.delsys.com/downloads/TUTORIAL/fundamental-concepts-in-emg-signal-acquisition.pdf" title="Delsys EMG Guide">Delsys EMG Guide</a></td>
+<td>Strongly Recommended</td>
+</tr>
+<tr class="odd">
+<td>EMG Signal Processing Key Techniques</td>
+<td>Technical Article</td>
+<td>Looking at raw data can be really confusing. This article breaks down exactly what's going on under the hood so you can look for key details and findings.</td>
+<td><a href="https://www.noraxon.com/article/emg-signal-processing-key-techniques-and-practical-recommendations/" title="Noraxon EMG Key Techniques">Noraxon EMG Key Techniques</a></td>
+<td>Strongly Recommended</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="repositories-and-software" class="level2">
-<h2 class="anchored" data-anchor-id="repositories-and-software">Repositories and software</h2>
+<section id="arduino-pieeg" class="level2">
+<h2 class="anchored" data-anchor-id="arduino-pieeg">Arduino / PiEEG</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -170,29 +191,50 @@ ul.task-list li input[type="checkbox"] {
 <th>Type</th>
 <th>Description</th>
 <th>Link</th>
-<th>Notes</th>
+<th>Requirement</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>ThewBand signal-processing pipeline</td>
-<td>Project repository</td>
-<td>Python code for filtering, feature extraction, fatigue estimation, and validation.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add the project GitHub repository.</td>
+<td>ArdEEG Paper</td>
+<td>Research Paper</td>
+<td>Setting up the software with a quick intro to the hardware we'll be using.</td>
+<td><a href="https://arxiv.org/pdf/2503.13482" title="ArdEEG Paper">ArdEEG Paper</a></td>
+<td>Required</td>
 </tr>
 <tr class="even">
-<td>ThewBand hardware and design files</td>
-<td>Hardware / design repository</td>
-<td>Sensor, electronics, enclosure, and wearable-prototype documentation.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add the hardware or CAD repository.</td>
+<td>ArdEEG Software Documentation</td>
+<td>Documentation</td>
+<td>Official documentation for the ArdEEG software setup.</td>
+<td><a href="https://docs.pieeg.com/hardware/devices/ardeeg/software/" title="ArdEEG Software">ArdEEG Software</a></td>
+<td>Required</td>
+</tr>
+<tr class="odd">
+<td>PiEEG Setup</td>
+<td>Documentation</td>
+<td>Connections and setup guide for the PiEEG hardware.</td>
+<td><a href="https://docs.pieeg.com/hardware/devices/pieeg/connections/" title="PiEEG Connections">PiEEG Connections</a></td>
+<td>Required</td>
+</tr>
+<tr class="even">
+<td>PiEEG GitHub Repository</td>
+<td>GitHub Repository</td>
+<td>Database and PiEEG's initial code for reference.</td>
+<td><a href="https://github.com/pieeg-club/ardEEG" title="PiEEG GitHub">PiEEG GitHub</a></td>
+<td>Strongly Recommended</td>
+</tr>
+<tr class="odd">
+<td>Programming Arduino</td>
+<td>Book</td>
+<td>C++ is the language primarily used for both Arduino and PiEEG. This book covers getting started with Arduino sketches.</td>
+<td><a href="https://agsci.colostate.edu/wp-content/uploads/sites/95/2020/03/Programming-Arduino.pdf" title="Programming Arduino Book">Programming Arduino Book</a></td>
+<td>Recommended</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="videos-and-tutorials" class="level2">
-<h2 class="anchored" data-anchor-id="videos-and-tutorials">Videos and tutorials</h2>
+<section id="data-processing-ml" class="level2">
+<h2 class="anchored" data-anchor-id="data-processing-ml">Data Processing / Machine Learning</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -200,23 +242,44 @@ ul.task-list li input[type="checkbox"] {
 <th>Type</th>
 <th>Description</th>
 <th>Link</th>
-<th>Notes</th>
+<th>Requirement</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>ThewBand sensor demonstration</td>
-<td>Project video</td>
-<td>A demonstration of sensor placement, muscle activation, and recorded EMG signals.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add a prototype video.</td>
-</tr>
-<tr class="even">
-<td>Surface-EMG processing walkthrough</td>
+<td>Google ML Crash Course: Numerical Data</td>
 <td>Tutorial</td>
-<td>A tutorial covering EMG filtering, feature extraction, and fatigue estimation.</td>
-<td><a href="#" title="Replace # with the resource URL">Add link</a></td>
-<td>Add a Python or digital-signal-processing tutorial.</td>
+<td>Introduces feature vectors and explains how to identify outliers, normalize data, and use binning strategies.</td>
+<td><a href="https://developers.google.com/machine-learning/crash-course/numerical-data" title="Google ML Crash Course">Google ML Crash Course</a></td>
+<td>Required</td>
+</tr>
+<tr class="even">
+<td>Scikit-learn Preprocessing</td>
+<td>Documentation</td>
+<td>Using scikit to scale data, apply linear/nonlinear transformations, and apply distributions.</td>
+<td><a href="https://scikit-learn.org/stable/modules/preprocessing.html" title="Scikit-learn Preprocessing">Scikit-learn Preprocessing</a></td>
+<td>Required</td>
+</tr>
+<tr class="odd">
+<td>OpenStax: Data Cleaning and Preprocessing</td>
+<td>Textbook</td>
+<td>Data standardization, normalization, transformation, aggregation. Introduces how to identify noise and preprocess data to reduce it.</td>
+<td><a href="https://openstax.org/books/principles-data-science/pages/2-4-data-cleaning-and-preprocessing" title="OpenStax Data Science">OpenStax Data Science</a></td>
+<td>Strongly Recommended</td>
+</tr>
+<tr class="even">
+<td>Kaggle: Intro to Machine Learning</td>
+<td>Tutorial</td>
+<td>Short, practical introduction to machine learning models and training workflows.</td>
+<td><a href="https://www.kaggle.com/learn/intro-to-machine-learning" title="Kaggle Intro to ML">Kaggle Intro to ML</a></td>
+<td>Strongly Recommended</td>
+</tr>
+<tr class="odd">
+<td>Python Data Science Handbook</td>
+<td>Book</td>
+<td>Comprehensive guide to working with data in Python — probably what most work here will use.</td>
+<td><a href="https://jakevdp.github.io/PythonDataScienceHandbook/" title="Python Data Science Handbook">Python Data Science Handbook</a></td>
+<td>Recommended</td>
 </tr>
 </tbody>
 </table>
